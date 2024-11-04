@@ -99,7 +99,7 @@
 .responsive-iframe-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Rasio 16:9 */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
 }
@@ -112,7 +112,12 @@
     height: 100%;
 }
 .video-container {
-    background: white;
+    max-width: 250%;
+    width: 70%;
+    background-color: white;
+    border: 2px solid var(--secondary-green);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0 var(--primary-blue);
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;

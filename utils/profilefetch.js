@@ -47,7 +47,7 @@ async function fetchEllaData() {
                 </div>
             `;
         }
-        
+
     } catch (error) {
         console.error("Error fetching data:", error);
     }
