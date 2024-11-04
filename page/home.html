@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ella JKT48 Fanpage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="/asset/css/main.css" rel="stylesheet">
+    <meta http-equiv="Permissions-Policy" content="accelerometer=(self)">
+
+
+</head>
+
+<body class="bg-white">
+    <nav class="glass-effect fixed w-full top-0 z-50 transition-all duration-300" id="navbar">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-2xl font-bold" style="color: var(--primary-blue);">Ella JKT48</div>
+                <div class="space-x-6">
+                    <a href="#home" style="color: var(--primary-blue);"
+                        class="hover:text-opacity-75 transition-colors">Home</a>
+                    <a href="#about" style="color: var(--primary-blue);"
+                        class="hover:text-opacity-75 transition-colors">About</a>
+                    <a href="#social" style="color: var(--primary-blue);"
+                        class="hover:text-opacity-75 transition-colors">Social</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section id="home" class="min-h-screen relative overflow-hidden pt-24" style="background-color: var(--primary-blue);">
+        <div class="container mx-auto px-4 py-20">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Gabriella Abigail</h1>
+                    <p class="text-3xl text-white mb-8">JKT48 Generation 10</p>
+                    <p class="text-3xl text-white mb-8">Ohayo! Konnichiwa! Oyasumi! Aku ingin ada di setiap waktumu</p>
+                    <div class="flex space-x-4">
+                        <a href="#social" class="retro-button">Follow Ella</a>
+                        <a href="#profile" class="retro-button" style="background: var(--secondary-green); color: var(--primary-blue);">Learn More</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 relative">
+                    <div class="star-decoration" style="top: -20px; right: 30px;">⭐</div>
+                    <div class="star-decoration" style="bottom: 40px; left: 20px;">⭐</div>
+                    <div id="thumbnailContainer" class="relative">
+                        <img src="/asset/css/img/ella.jpg" alt="Ella JKT48" class="rounded-lg border-4 w-full cursor-pointer" style="border-color: var(--secondary-green);" id="videoThumbnail">
+                        <div class="play-button-overlay cursor-pointer" onclick="playVideo()">
+                            <img src="https://img.icons8.com/ios-filled/50/ffffff/play-button-circled--v1.png"/>
+                        </div>
+                    </div>
+                    <div id="videoContainer">
+                        <iframe 
+                            id="youtubeVideo" 
+                            class="absolute top-0 left-0 w-full h-full rounded-lg border-4" 
+                            style="border-color: var(--secondary-green);"
+                            src="https://www.youtube.com/embed/D6G5eJ_GlQo" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="profile" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-16 text-center" style="color: var(--primary-blue);">Profile</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="card-bg p-8 hover-scale" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Biodata</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-center space-x-2">
+                            <span class="font-bold">Name:</span>
+                            <span>Gabriela Abigail Mewengkang</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="font-bold">Birthday:</span>
+                            <span>7 Agustus 2006</span>
+                        </li>
+                        <li class="flex items-center space-x-2">
+                            <span class="font-bold">Height:</span>
+                            <span>161 cm</span>
+                        </li>
+                        <li class="flex items-center space-x-2"></li>
+                        <span class="font-bold">Blood Type:</span>
+                        <span>B+</span>
+                        </li>
+                        <li class="flex items-center space-x-2"></li>
+                        <span class="font-bold">Generation:</span>
+                        <span>10Th</span>
+                        </li>
+                        <li class="flex items-center space-x-2"></li>
+                        <span class="font-bold">jikosokai:</span>
+                        <span>"Ohayo! Konnichiwa! Oyasumi! Aku ingin ada di setiap waktumu"</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-bg p-8 hover-scale" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Performance</h3>
+                    <ul class="space-y-4">
+                        <li class="flex justify-between items-center">
+                            <span>Total Live Shows</span>
+                            <span id="total-live" class="text-lg font-bold" style="color: var(--primary-blue);"></span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span>Most Gift</span>
+                            <span id="most-gift" class="text-lg font-bold" style="color: var(--primary-blue);"></span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span>Longest Live</span>
+                            <span id="longest-live" class="text-lg font-bold" style="color: var(--primary-blue);"></span>
+                        </li>
+                        <li class="flex justify-between items-center">
+                            <span>Last Live Date</span>
+                            <span id="last-live-date" class="text-lg font-bold" style="color: var(--primary-blue);"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-bg p-8 hover-scale" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Unit Songs</h3>
+                    <ul class="space-y-4">
+                        <li>First Rabbit</li>
+                        <li>Refrain Full</li>
+                        <li>Lantang</li>
+                        <li>Halloween Night</li>
+                        <li>Rapsodi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="wave-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="var(--primary-blue)" fill-opacity="1" 
+            d="M0,128L0,192L43.6,192L43.6,224L87.3,224L87.3,160L130.9,160L130.9,288L174.5,288L174.5,64L218.2,64L218.2,32L261.8,32L261.8,256L305.5,256L305.5,288L349.1,288L349.1,32L392.7,32L392.7,160L436.4,160L436.4,160L480,160L480,256L523.6,256L523.6,320L567.3,320L567.3,32L610.9,32L610.9,32L654.5,32L654.5,256L698.2,256L698.2,64L741.8,64L741.8,224L785.5,224L785.5,96L829.1,96L829.1,192L872.7,192L872.7,0L916.4,0L916.4,64L960,64L960,64L1003.6,64L1003.6,96L1047.3,96L1047.3,256L1090.9,256L1090.9,0L1134.5,0L1134.5,224L1178.2,224L1178.2,224L1221.8,224L1221.8,320L1265.5,320L1265.5,256L1309.1,256L1309.1,224L1352.7,224L1352.7,288L1396.4,288L1396.4,64L1440,64L1440,320L1396.4,320L1396.4,320L1352.7,320L1352.7,320L1309.1,320L1309.1,320L1265.5,320L1265.5,320L1221.8,320L1221.8,320L1178.2,320L1178.2,320L1134.5,320L1134.5,320L1090.9,320L1090.9,320L1047.3,320L1047.3,320L1003.6,320L1003.6,320L960,320L960,320L916.4,320L916.4,320L872.7,320L872.7,320L829.1,320L829.1,320L785.5,320L785.5,320L741.8,320L741.8,320L698.2,320L698.2,320L654.5,320L654.5,320L610.9,320L610.9,320L567.3,320L567.3,320L523.6,320L523.6,320L480,320L480,320L436.4,320L436.4,320L392.7,320L392.7,320L349.1,320L349.1,320L305.5,320L305.5,320L261.8,320L261.8,320L218.2,320L218.2,320L174.5,320L174.5,320L130.9,320L130.9,320L87.3,320L87.3,320L43.6,320L43.6,320L0,320L0,320Z"></path></svg>
+    </div>
+
+    <section id="nextperform" class="py-20" style="background-color: var(--primary-blue);">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold mb-16 text-center text-white mb-6">Next Performance Ella</h2>
+            <div id="upcoming-theater" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        </div>
+    </section>
+    
+
+
+    <section class="py-20" style="background-color: var(--secondary-green);">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16" style="color: var(--primary-blue);">Profile Gabriela Abigail</h2>
+            <div class="card-bg overflow-hidden video-container max-w-[500px] w-full mx-auto">
+                <div class="relative" style="padding-bottom: 56.25%;">
+                    <iframe 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 0.5rem;"
+                        src="https://www.youtube.com/embed/v2iMGnJjdUA?si=HIkXCPT8Za8SATX9" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="social" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16" style="color: var(--primary-blue);">Social Media</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="card-bg p-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Instagram</h3>
+                    <div class="social-feed" style="max-width: 500px; margin: auto;">
+                        <blockquote class="instagram-media"
+                            data-instgrm-permalink="https://www.instagram.com/jkt48.ella.a/"
+                            style="width: 100%; height: 500px;">
+                        </blockquote>
+                    </div>
+                </div>
+
+                <div class="card-bg p-6" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Twitter</h3>
+                    <div class="social-feed">
+                        <a class="twitter-timeline" href="https://twitter.com/AM_EllaJKT48">Tweets by Ella</a>
+                    </div>
+                </div>
+
+                <div class="card-bg p-6" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">TikTok</h3>
+                    <div class="social-feed">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jkt48.ella.a"
+                            data-unique-id="jkt48.ella.a" data-embed-from="oembed" data-embed-type="creator"
+                            style="max-width:780px; min-width:288px;">
+                            <section>
+                                <a target="_blank"
+                                    href="https://www.tiktok.com/@jkt48.ella.a?refer=creator_embed">@jkt48.ella.a</a>
+                            </section>
+                        </blockquote>
+                        <script async src="https://www.tiktok.com/embed.js"></script>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20" style="background-color: var(--secondary-green);">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-16" style="color: var(--primary-blue);">About This Fanpage</h2>
+            <div class="card-bg p-8 max-w-3xl mx-auto" data-aos="fade-up">
+                <p class="text-gray-600 text-center text-lg leading-relaxed">
+                    This is a fanmade website dedicated to Gabriella Abigail Mwengkang (Ella) from JKT48.
+                    Created with love by fans, for fans. All information presented here is collected from
+                    various public sources and official JKT48 media.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-8" style="background-color: var(--primary-blue);">
+        <div class="container mx-auto px-4">
+            <p class="text-center text-white">© 2024 Ella JKT48 Fanpage. This is a fanmade website. by love
+                Typicalsleepingboy</p>
+        </div>
+    </footer>
+
+    <script>
+        function playVideo() {
+            const thumbnailContainer = document.getElementById('thumbnailContainer');
+            const videoContainer = document.getElementById('videoContainer');
+            
+            if (thumbnailContainer && videoContainer) {
+                thumbnailContainer.style.display = 'none';
+                videoContainer.style.display = 'hidden';
+                
+                const iframe = document.getElementById('youtubeVideo');
+                const videoSrc = iframe.src;
+                iframe.src = videoSrc;
+            }
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://www.instagram.com/embed.js"></script>
+    <script src="/component/scroll.js"></script>
+    <script src="/utils/profilefetch.js"></script>
+</body>
+
+</html>

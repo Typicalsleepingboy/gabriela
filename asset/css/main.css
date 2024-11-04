@@ -1,0 +1,132 @@
+:root {
+    --primary-blue: #0066cc;
+    --secondary-green: #00ff9d;
+    --accent-pink: #ff69b4;
+    --yellow-star: #ffd700;
+}
+
+.element {
+    forced-color-adjust: auto;
+}
+
+.gradient-text {
+    background: linear-gradient(45deg, var(--primary-blue), var(--secondary-green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.85);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+.social-feed {
+    height: 500px;
+    overflow-y: auto;
+    border: 3px solid var(--primary-blue);
+    border-radius: 1rem;
+}
+
+.custom-shape-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+
+.gradient-bg {
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-green) 100%);
+}
+
+.card-bg {
+    background-color: white;
+    border: 2px solid var(--secondary-green);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0 var(--primary-blue);
+}
+
+.retro-button {
+    background: var(--primary-blue);
+    border: 2px solid var(--secondary-green);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 0 var(--secondary-green);
+    transition: all 0.2s ease;
+}
+
+.retro-button:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: 5px 5px 0 var(--secondary-green);
+}
+
+.star-decoration {
+    color: var(--yellow-star);
+    position: absolute;
+    font-size: 2rem;
+}
+
+.floating {
+    animation: floating 3s ease-in-out infinite;
+}
+
+.play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#videoThumbnail {
+    position: relative;
+    cursor: pointer;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Rasio 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-container {
+    background: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
