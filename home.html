@@ -31,14 +31,17 @@
     </nav>
 
 
-    <section id="home" class="relative overflow-hidden pt-24 pb-24"" style="background-color: var(--primary-blue);">
+    <section id="home" class="relative overflow-hidden pt-24 pb-24"" style=" background-color: var(--primary-blue);">
         <div class="container mx-auto px-4 py-20">
             <div class="flex flex-col md:flex-row items-center justify-between gap-10">
                 <div class="md:w-1/2" data-aos="fade-right">
                     <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Gabriella Abigail</h1>
                     <p class="text-3xl text-white mb-8">JKT48 Generation 10</p>
-                    <p class="text-2xl text-white mb-8 font-light">(lahir 7 Agustus 2006), atau yang lebih akrab dipanggil Ella, adalah salah seorang anggota member JKT48 generasi sepuluh. Ia debut dan diperkenalkan menjadi member 
-                        generasi ke sepuluh bersama 7 member lainnya pada Sabtu, 18 Desember 2021 setelah sempat tertunda dikarenakan kondisi yang tidak memungkinan saat itu.</p>
+                    <p class="text-2xl text-white mb-8 font-light">(lahir 7 Agustus 2006), atau yang lebih akrab
+                        dipanggil Ella, adalah salah seorang anggota member JKT48 generasi sepuluh. Ia debut dan
+                        diperkenalkan menjadi member
+                        generasi ke sepuluh bersama 7 member lainnya pada Sabtu, 18 Desember 2021 setelah sempat
+                        tertunda dikarenakan kondisi yang tidak memungkinan saat itu.</p>
                     <div class="flex space-x-4">
                         <a href="#social" class="retro-button">Follow Ella</a>
                         <a href="#profile" class="retro-button"
@@ -135,15 +138,12 @@
                     </ul>
                 </div>
 
-                <div class="card-bg p-8 hover-scale" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Unit Songs ⭐</h3>
-                    <ul class="space-y-4">
-                        <li>First Rabbit</li>
-                        <li>Refrain Full</li>
-                        <li>Lantang</li>
-                        <li>Halloween Night</li>
-                        <li>Rapsodi</li>
-                    </ul>
+                <div class="card-bg flex flex-col w-full sm:w-80 p-8 hover-scale" data-aos="fade-up">
+                    <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">Sousenkyou 2024 👑</h3>
+                    <img src="https://ssk.jkt48.com/2024/assets/img/member/gabriela-abigail/mobile.jpg"
+                        alt="Ella ssk2024" class="rounded-lg w-full sm:w-80 h-48 object-cover mb-4">
+                    <h3 class="text-2xl font-bold mb-2" style="color: var(--primary-blue);">Gabriela Abigail</h3>
+                    <a href="https://ssk.jkt48.com/2024/id/vote" class="retro-button mt-auto text-center">Vote Now</a>
                 </div>
             </div>
         </div>
@@ -253,23 +253,23 @@
             const thumbnailContainer = document.getElementById('thumbnailContainer');
             const videoContainer = document.getElementById('videoContainer');
             const iframe = videoContainer.querySelector('iframe');
-            
+
             thumbnailContainer.style.display = 'none';
             videoContainer.classList.remove('hidden');
             videoContainer.style.display = 'block';
-            
+
             if (iframe.src.indexOf('autoplay=1') === -1) {
                 iframe.src += '&autoplay=1';
             }
         }
 
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             const videoContainer = document.getElementById('videoContainer');
             if (!videoContainer.classList.contains('hidden')) {
                 const wrapper = videoContainer.closest('.video-wrapper');
                 if (wrapper) {
                     const width = wrapper.offsetWidth;
-                    const height = width * (9/16); 
+                    const height = width * (9 / 16);
                     videoContainer.style.height = `${height}px`;
                 }
             }
