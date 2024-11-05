@@ -1,56 +1,221 @@
+function _0x5732(_0x45913f, _0x2de22b) {
+    const _0x144de1 = _0x4605();
+    return _0x5732 = function (_0x4c9ab9, _0x25491f) {
+        _0x4c9ab9 = _0x4c9ab9 - (0x739 * 0x2 + -0xc3 * -0xb + 0x2 * -0xa93);
+        let _0x2b0ce6 = _0x144de1[_0x4c9ab9];
+        return _0x2b0ce6;
+    }, _0x5732(_0x45913f, _0x2de22b);
+}
+const _0x25ccbc = _0x5732;
+function _0x4605() {
+    const _0x33fdc4 = [
+        'upcoming-t',
+        '\x22100\x22>\x0a\x20\x20\x20',
+        'addEventLi',
+        'jmcfq',
+        '\x20<div\x20clas',
+        'json',
+        'member/ell',
+        '</h3>\x0a\x20\x20\x20\x20',
+        'last-live-',
+        'byEcz',
+        'https://ap',
+        'url',
+        'ss=\x22text-2',
+        'i\x20gak\x20show',
+        'ld\x20mb-6\x22\x20s',
+        'jQWmz',
+        'teString',
+        'xl\x20font-bo',
+        '\x22>Ella\x20lag',
+        'mCsQA',
+        '7503390EMHBFB',
+        'ass=\x22text-',
+        'Loaded',
+        'eater',
+        'v>\x0a\x20\x20\x20\x20\x20\x20\x20',
+        '\x20\x20\x20\x20\x20\x20\x20</d',
+        '2072730ecBIHq',
+        'v\x20class=\x22c',
+        'ta-aos=\x22fa',
+        'GNORi',
+        'name',
+        '\x20jam\x20',
+        '\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20',
+        '-scale\x22\x20da',
+        'floor',
+        '23340uEnVAE',
+        '38059bppaGM',
+        '295QgyKVw',
+        'le\x20text-ce',
+        '\x20p-8\x20hover',
+        'duration',
+        'y=\x22100\x22>\x0a\x20',
+        'Showroom:\x20',
+        's</a>\x0a\x20\x20\x20\x20',
+        '\x20\x20\x20\x20\x20\x20',
+        'tyle=\x22colo',
+        '27879FIuxNg',
+        'upcomingTh',
+        'NCRqd',
+        '-aos=\x22fade',
+        'bYxXB',
+        'stener',
+        'longest_li',
+        '906vIDzXD',
+        'kKAdl',
+        'total-live',
+        'See\x20Detail',
+        'start',
+        'DmoPP',
+        'error',
+        'toLocaleDa',
+        '\x20hover-sca',
+        '\x20\x20\x20\x20\x20\x20</di',
+        'de-up\x22\x20dat',
+        'XfPLh',
+        'gift',
+        '174wUpnUx',
+        '\x20detik',
+        'IDR',
+        'most_gift',
+        '-bold\x20text',
+        'trim',
+        'forEach',
+        'a-aos-dela',
+        'ById',
+        'showroom',
+        'nter\x22\x20data',
+        '\x20\x20\x20<h3\x20cla',
+        'DOTkF',
+        '-blue-500\x20',
+        '670FssJrJ',
+        ',\x20IDN:\x20',
+        'HzdCE',
+        'stats',
+        'format',
+        'longest-li',
+        'r:\x20var(--p',
+        'DOMContent',
+        '\x20ges\x20😭</p>',
+        'aos-delay=',
+        'my.id/api/',
+        '</p>\x0a\x20\x20\x20\x20\x20',
+        'id-ID',
+        'hing\x20data:',
+        'blue-500\x20u',
+        'eOarX',
+        'kRnhY',
+        'ard-bg\x20p-8',
+        '\x20menit\x20',
+        'getElement',
+        '149809YEkKsM',
+        'last_live',
+        'IxCwH',
+        'length',
+        '\x20\x20\x20\x20\x20\x20\x20<p\x20',
+        'most-gift',
+        '\x20\x20\x20\x20\x20\x20\x20<di',
+        '-up\x22\x20data-',
+        'textConten',
+        's=\x22card-bg',
+        'heater',
+        '744yhZzfa',
+        'i.crstlnz.',
+        '\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20',
+        'NumberForm',
+        'total_live',
+        'iv>\x0a\x20\x20\x20\x20\x20\x20',
+        'innerHTML',
+        '_blank\x22\x20cl',
+        'rimary-blu',
+        'class=\x22tex',
+        'currency',
+        'a\x20href=\x22',
+        't-2xl\x20font',
+        '\x20\x20\x20\x20\x20\x20\x20\x20\x20<',
+        '\x22\x20target=\x22',
+        'iwGuq',
+        'Error\x20fetc',
+        'nderline\x22>',
+        '\x20\x20\x20\x20\x20\x20\x20\x20\x20',
+        'date',
+        '<p>Date:\x20',
+        'e);\x22>',
+        'idn'
+    ];
+    _0x4605 = function () {
+        return _0x33fdc4;
+    };
+    return _0x4605();
+}
+(function (_0x56f556, _0x4ee19d) {
+    const _0x5837d2 = _0x5732, _0x6388c3 = _0x56f556();
+    while (!![]) {
+        try {
+            const _0x3dc328 = parseInt(_0x5837d2(0x21f)) / (-0x411 * 0x3 + 0xf * -0x1a2 + -0x16 * -0x1ab) + -parseInt(_0x5837d2(0x22c)) / (-0x1392 + -0x19 * 0x181 + -0x3 * -0x130f) * (parseInt(_0x5837d2(0x218)) / (-0x1620 + -0x1 * -0xc44 + 0x9df)) + parseInt(_0x5837d2(0x20d)) / (0x26d9 + -0x2b * -0x87 + -0x3d82) * (parseInt(_0x5837d2(0x20f)) / (-0x445 * 0x7 + 0x1828 + 0x5c0)) + parseInt(_0x5837d2(0x204)) / (0xd * 0x167 + 0x85e + 0x1 * -0x1a93) + -parseInt(_0x5837d2(0x20e)) / (0x2059 + 0x15b7 + -0x1dd * 0x1d) * (-parseInt(_0x5837d2(0x1d3)) / (-0x1f3c + -0x8 * -0x281 + 0xb3c)) + -parseInt(_0x5837d2(0x1fe)) / (0x12 * -0x10a + 0x10c9 + 0x1f4) + parseInt(_0x5837d2(0x1b4)) / (-0x3e5 * 0xa + -0xb79 + 0x3275 * 0x1) * (parseInt(_0x5837d2(0x1c8)) / (-0x6b * 0x1 + 0x1bb4 + -0x1b3e));
+            if (_0x3dc328 === _0x4ee19d)
+                break;
+            else
+                _0x6388c3['push'](_0x6388c3['shift']());
+        } catch (_0x4e2c33) {
+            _0x6388c3['push'](_0x6388c3['shift']());
+        }
+    }
+}(_0x4605, -0x1bd2 + 0x1 * -0xce162 + -0x1 * -0x141b9f));
 async function fetchEllaData() {
+    const _0x33ce1b = _0x5732, _0x5b74a0 = {
+            'IxCwH': _0x33ce1b(0x1f4) + _0x33ce1b(0x1d4) + _0x33ce1b(0x1be) + _0x33ce1b(0x1f0) + 'a',
+            'jmcfq': function (_0x450816, _0x5c3b2f) {
+                return _0x450816(_0x5c3b2f);
+            },
+            'DmoPP': _0x33ce1b(0x221),
+            'bYxXB': _0x33ce1b(0x1c0),
+            'mCsQA': _0x33ce1b(0x1dd),
+            'eOarX': _0x33ce1b(0x22e),
+            'XfPLh': _0x33ce1b(0x1cd),
+            'HzdCE': function (_0x3bf9d1, _0x44188b) {
+                return _0x3bf9d1 / _0x44188b;
+            },
+            'kKAdl': function (_0x1ae736, _0x3c00c3) {
+                return _0x1ae736 / _0x3c00c3;
+            },
+            'NCRqd': function (_0x5d73be, _0x519624) {
+                return _0x5d73be > _0x519624;
+            },
+            'DOTkF': function (_0x37dbbc, _0x58f7c0) {
+                return _0x37dbbc % _0x58f7c0;
+            },
+            'byEcz': function (_0x2e248a, _0x48255b) {
+                return _0x2e248a % _0x48255b;
+            },
+            'kRnhY': _0x33ce1b(0x1b9) + 've',
+            'iwGuq': _0x33ce1b(0x1f2) + _0x33ce1b(0x1e6),
+            'jQWmz': _0x33ce1b(0x1ea) + _0x33ce1b(0x1d2),
+            'GNORi': _0x33ce1b(0x1e3) + _0x33ce1b(0x1c1)
+        };
     try {
-        let apiUrl = "https://api.crstlnz.my.id/api/member/ella";
-        const response = await fetch(apiUrl);
-        const data = await response.json();
-
-        document.getElementById('total-live').textContent = `Showroom: ${data.stats.total_live.showroom}, IDN: ${data.stats.total_live.idn}`;
-        const mostGiftRupiah = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(data.stats.most_gift.gift);
-        document.getElementById('most-gift').textContent = `${mostGiftRupiah}`;
-
-        const duration = data.stats.longest_live.duration;
-        const seconds = Math.floor(duration / 1000);
-        const minutes = Math.floor(seconds / 60);
-        const hours = Math.floor(minutes / 60);
-
-        let durationString = '';
-        if (hours > 0) {
-            durationString += `${hours} jam `;
-        }
-        if (minutes % 60 > 0) {
-            durationString += `${minutes % 60} menit `;
-        }
-        if (seconds % 60 > 0) {
-            durationString += `${seconds % 60} detik`;
-        }
-
-        document.getElementById('longest-live').textContent = `${durationString.trim()}`;
-
-        document.getElementById('last-live-date').textContent = new Date(data.stats.last_live.date.start).toLocaleDateString();
-
-        const upcomingTheaterContainer = document.getElementById('upcoming-theater');
-        if (data.upcomingTheater.length > 0) {
-            data.upcomingTheater.forEach(theater => {
-                const theaterCard = `
-                    <div class="card-bg p-8 hover-scale" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="text-2xl font-bold mb-6" style="color: var(--primary-blue);">${theater.name}</h3>
-                        <p>Date: ${new Date(theater.date).toLocaleDateString()}</p>
-                        <a href="${theater.url}" target="_blank" class="text-blue-500 underline">See Details</a>
-                    </div>
-                `;
-                upcomingTheaterContainer.innerHTML += theaterCard;
-            });
-        } else {
-            upcomingTheaterContainer.innerHTML = `
-                <div class="card-bg p-8 hover-scale text-center" data-aos="fade-up" data-aos-delay="100">
-                    <p class="text-2xl font-bold text-blue-500 ">Ella lagi gak show ges 😭</p>
-                </div>
-            `;
-        }
-
-    } catch (error) {
-        console.error("Error fetching data:", error);
+        let _0x28d0ec = _0x5b74a0[_0x33ce1b(0x1ca)];
+        const _0x408b9a = await _0x5b74a0[_0x33ce1b(0x1ed)](fetch, _0x28d0ec), _0x528bcc = await _0x408b9a[_0x33ce1b(0x1ef)]();
+        document[_0x33ce1b(0x1c7) + _0x33ce1b(0x1ae)](_0x5b74a0[_0x33ce1b(0x224)])[_0x33ce1b(0x1d0) + 't'] = _0x33ce1b(0x214) + _0x528bcc[_0x33ce1b(0x1b7)][_0x33ce1b(0x1d7)][_0x33ce1b(0x1af)] + _0x33ce1b(0x1b5) + _0x528bcc[_0x33ce1b(0x1b7)][_0x33ce1b(0x1d7)][_0x33ce1b(0x1e9)];
+        const _0x4f9749 = new Intl[(_0x33ce1b(0x1d6)) + 'at'](_0x5b74a0[_0x33ce1b(0x21c)], {
+            'style': _0x5b74a0[_0x33ce1b(0x1fd)],
+            'currency': _0x5b74a0[_0x33ce1b(0x1c3)]
+        })[_0x33ce1b(0x1b8)](_0x528bcc[_0x33ce1b(0x1b7)][_0x33ce1b(0x22f)][_0x33ce1b(0x22b)]);
+        document[_0x33ce1b(0x1c7) + _0x33ce1b(0x1ae)](_0x5b74a0[_0x33ce1b(0x22a)])[_0x33ce1b(0x1d0) + 't'] = '' + _0x4f9749;
+        const _0x53bdc0 = _0x528bcc[_0x33ce1b(0x1b7)][_0x33ce1b(0x21e) + 've'][_0x33ce1b(0x212)], _0x590325 = Math[_0x33ce1b(0x20c)](_0x5b74a0[_0x33ce1b(0x1b6)](_0x53bdc0, -0x5 * 0x53f + -0xcd3 + -0x263 * -0x12)), _0x49837e = Math[_0x33ce1b(0x20c)](_0x5b74a0[_0x33ce1b(0x1b6)](_0x590325, 0x110e * 0x2 + -0x142 * 0x11 + -0xc7e)), _0x1afd76 = Math[_0x33ce1b(0x20c)](_0x5b74a0[_0x33ce1b(0x220)](_0x49837e, 0x16ea + -0x1 * -0x6df + -0x5 * 0x5e9));
+        let _0x510b36 = '';
+        _0x5b74a0[_0x33ce1b(0x21a)](_0x1afd76, 0x743 * -0x1 + 0x9fe + -0x3 * 0xe9) && (_0x510b36 += _0x1afd76 + _0x33ce1b(0x209));
+        _0x5b74a0[_0x33ce1b(0x21a)](_0x5b74a0[_0x33ce1b(0x1b2)](_0x49837e, -0x801 + 0x1 * -0x155f + -0x1 * -0x1d9c), -0xd51 + 0x71c + -0xe3 * -0x7) && (_0x510b36 += _0x5b74a0[_0x33ce1b(0x1b2)](_0x49837e, 0x44b + -0xa9 * -0x7 + 0xca * -0xb) + _0x33ce1b(0x1c6));
+        _0x5b74a0[_0x33ce1b(0x21a)](_0x5b74a0[_0x33ce1b(0x1b2)](_0x590325, 0x2 * -0x542 + 0x1 * 0x11a1 + -0x6e1), 0x99 * -0x21 + -0x1 * 0xe1e + 0x21d7) && (_0x510b36 += _0x5b74a0[_0x33ce1b(0x1f3)](_0x590325, -0x5a7 * 0x1 + 0x5ee * -0x3 + 0x17ad) + _0x33ce1b(0x22d));
+        document[_0x33ce1b(0x1c7) + _0x33ce1b(0x1ae)](_0x5b74a0[_0x33ce1b(0x1c4)])[_0x33ce1b(0x1d0) + 't'] = '' + _0x510b36[_0x33ce1b(0x231)](), document[_0x33ce1b(0x1c7) + _0x33ce1b(0x1ae)](_0x5b74a0[_0x33ce1b(0x1e2)])[_0x33ce1b(0x1d0) + 't'] = new Date(_0x528bcc[_0x33ce1b(0x1b7)][_0x33ce1b(0x1c9)][_0x33ce1b(0x1e6)][_0x33ce1b(0x223)])[_0x33ce1b(0x226) + _0x33ce1b(0x1fa)]();
+        const _0x415af4 = document[_0x33ce1b(0x1c7) + _0x33ce1b(0x1ae)](_0x5b74a0[_0x33ce1b(0x1f9)]);
+        _0x5b74a0[_0x33ce1b(0x21a)](_0x528bcc[_0x33ce1b(0x219) + _0x33ce1b(0x201)][_0x33ce1b(0x1cb)], -0x1 * -0x1d22 + -0x5df + -0x1743) ? _0x528bcc[_0x33ce1b(0x219) + _0x33ce1b(0x201)][_0x33ce1b(0x232)](_0x2379b2 => {
+            const _0x195a89 = _0x33ce1b, _0x5816e0 = _0x195a89(0x1d5) + _0x195a89(0x20a) + _0x195a89(0x1ee) + _0x195a89(0x1d1) + _0x195a89(0x211) + _0x195a89(0x20b) + _0x195a89(0x206) + _0x195a89(0x229) + _0x195a89(0x1ad) + _0x195a89(0x213) + _0x195a89(0x20a) + _0x195a89(0x20a) + _0x195a89(0x1b1) + _0x195a89(0x1f6) + _0x195a89(0x1fb) + _0x195a89(0x1f8) + _0x195a89(0x217) + _0x195a89(0x1ba) + _0x195a89(0x1db) + _0x195a89(0x1e8) + _0x2379b2[_0x195a89(0x208)] + (_0x195a89(0x1f1) + _0x195a89(0x20a) + _0x195a89(0x20a) + _0x195a89(0x1e7)) + new Date(_0x2379b2[_0x195a89(0x1e6)])[_0x195a89(0x226) + _0x195a89(0x1fa)]() + (_0x195a89(0x1bf) + _0x195a89(0x20a) + _0x195a89(0x1e0) + _0x195a89(0x1de)) + _0x2379b2[_0x195a89(0x1f5)] + (_0x195a89(0x1e1) + _0x195a89(0x1da) + _0x195a89(0x1ff) + _0x195a89(0x1c2) + _0x195a89(0x1e4) + _0x195a89(0x222) + _0x195a89(0x215) + _0x195a89(0x20a) + _0x195a89(0x228) + _0x195a89(0x202) + _0x195a89(0x1e5));
+            _0x415af4[_0x195a89(0x1d9)] += _0x5816e0;
+        }) : _0x415af4[_0x33ce1b(0x1d9)] = _0x33ce1b(0x1d5) + _0x33ce1b(0x1ce) + _0x33ce1b(0x205) + _0x33ce1b(0x1c5) + _0x33ce1b(0x227) + _0x33ce1b(0x210) + _0x33ce1b(0x1b0) + _0x33ce1b(0x21b) + _0x33ce1b(0x1cf) + _0x33ce1b(0x1bd) + _0x33ce1b(0x1eb) + _0x33ce1b(0x20a) + _0x33ce1b(0x1cc) + _0x33ce1b(0x1dc) + _0x33ce1b(0x1df) + _0x33ce1b(0x230) + _0x33ce1b(0x1b3) + _0x33ce1b(0x1fc) + _0x33ce1b(0x1f7) + _0x33ce1b(0x1bc) + _0x33ce1b(0x1d5) + _0x33ce1b(0x203) + _0x33ce1b(0x1d8) + _0x33ce1b(0x216);
+    } catch (_0x46c8e6) {
+        console[_0x33ce1b(0x225)](_0x5b74a0[_0x33ce1b(0x207)], _0x46c8e6);
     }
 }
-
-document.addEventListener("DOMContentLoaded", fetchEllaData);
+document[_0x25ccbc(0x1ec) + _0x25ccbc(0x21d)](_0x25ccbc(0x1bb) + _0x25ccbc(0x200), fetchEllaData);
