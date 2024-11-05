@@ -31,8 +31,7 @@
     </nav>
 
 
-    <section id="home" class="min-h-screen relative overflow-hidden pt-24"
-        style="background-color: var(--primary-blue);">
+    <section id="home" class="min-h-screen relative overflow-hidden pt-24" style="background-color: var(--primary-blue);">
         <div class="container mx-auto px-4 py-20">
             <div class="flex flex-col md:flex-row items-center justify-between gap-10">
                 <div class="md:w-1/2" data-aos="fade-right">
@@ -45,24 +44,27 @@
                             style="background: var(--secondary-green); color: var(--primary-blue);">Learn More</a>
                     </div>
                 </div>
-                <div class="md:w-1/2 relative">
-                    <div class="star-decoration" style="top: -20px; right: 30px;">⭐</div>
-                    <div class="star-decoration" style="bottom: 40px; left: 20px;">⭐</div>
-                    <div id="thumbnailContainer" class="relative" data-aos="fade-left">
-                        <img src="/asset/css/img/ella.jpg" alt="Ella JKT48"
-                            class="rounded-lg border-4 w-full cursor-pointer"
-                            style="border-color: var(--secondary-green);" id="videoThumbnail">
-                        <div class="play-button-overlay cursor-pointer" onclick="playVideo()">
-                            <img src="https://img.icons8.com/ios-filled/50/ffffff/play-button-circled--v1.png" />
+                <div class="md:w-1/2 w-full relative">
+                    <div class="video-wrapper relative w-full" style="padding-bottom: 56.25%;" data-aos="fade-left">
+                        <div id="thumbnailContainer" class="absolute inset-0 w-full h-full">
+                            <img src="/asset/css/img/ella.jpg" alt="Ella JKT48"
+                                class="rounded-lg border-4 w-full h-full object-cover"
+                                style="border-color: var(--secondary-green);">
+                            <div class="play-button-overlay cursor-pointer absolute inset-0 flex items-center justify-center hover:bg-opacity-40 transition-all"
+                                onclick="playVideo()">
+                                <img src="https://img.icons8.com/ios-filled/50/ffffff/play-button-circled--v1.png"
+                                    class="w-16 h-16" />
+                            </div>
                         </div>
-                    </div>
-                    <div id="videoContainer" data-aos="fade-left">
-                        <iframe id="youtubeVideo" class="absolute top-0 left-0 w-full h-full rounded-lg border-4"
-                            style="border-color: var(--secondary-green);"
-                            src="https://www.youtube.com/embed/D6G5eJ_GlQo" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
+                        <div id="videoContainer" class="absolute inset-0 w-full h-full hidden">
+                            <iframe class="rounded-lg border-4 w-full h-full"
+                                style="border-color: var(--secondary-green);"
+                                src="https://www.youtube.com/embed/D6G5eJ_GlQo?si=jfNhHcJ8aFG5jp3M"
+                                title="Ella JKT48 Video"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -249,16 +251,29 @@
         function playVideo() {
             const thumbnailContainer = document.getElementById('thumbnailContainer');
             const videoContainer = document.getElementById('videoContainer');
-
-            if (thumbnailContainer && videoContainer) {
-                thumbnailContainer.style.display = 'none';
-                videoContainer.style.display = 'hidden';
-
-                const iframe = document.getElementById('youtubeVideo');
-                const videoSrc = iframe.src;
-                iframe.src = videoSrc;
+            const iframe = videoContainer.querySelector('iframe');
+            
+            thumbnailContainer.style.display = 'none';
+            videoContainer.classList.remove('hidden');
+            videoContainer.style.display = 'block';
+            
+            if (iframe.src.indexOf('autoplay=1') === -1) {
+                iframe.src += '&autoplay=1';
             }
         }
+
+        window.addEventListener('resize', function() {
+            const videoContainer = document.getElementById('videoContainer');
+            if (!videoContainer.classList.contains('hidden')) {
+                const wrapper = videoContainer.closest('.video-wrapper');
+                if (wrapper) {
+                    const width = wrapper.offsetWidth;
+                    const height = width * (9/16); 
+                    videoContainer.style.height = `${height}px`;
+                }
+            }
+        });
+
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

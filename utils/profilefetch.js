@@ -43,7 +43,7 @@ async function fetchEllaData() {
         } else {
             upcomingTheaterContainer.innerHTML = `
                 <div class="card-bg p-8 hover-scale text-center" data-aos="fade-up" data-aos-delay="100">
-                    <p class="text-2xl font-bold text-blue-500 ">No upcoming performances at the moment.</p>
+                    <p class="text-2xl font-bold text-blue-500 ">Ella lagi gak show ges 😭</p>
                 </div>
             `;
         }
